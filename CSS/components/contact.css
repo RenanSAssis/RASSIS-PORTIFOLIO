@@ -1,0 +1,27 @@
+footer {
+  /*PLANO DE FUNDO DO CONTATO*/
+  background-color: var(--light-tertiary-color);
+}
+
+footer .contact__content {
+  /*ALINHAMENTO DOS ELEMENTOS DA DIV DE CONTATO*/
+  text-align: center;
+  padding: 6rem 2rem 1rem;
+  max-width: 47rem;
+}
+
+/*ALINHAMENTO E POSICIONAMENTO OS INPUTS PARA O FORMULÁRIO DE CONTATO*/
+fieldset {
+  border: none;
+}
+
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}

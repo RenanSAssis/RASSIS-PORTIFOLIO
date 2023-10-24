@@ -1,0 +1,9 @@
+/*IMPORTS DO LINK DE CONEXÃO ENTRE HTML E CSS*/
+@import "./globals.css";
+
+@import "./components/navbar.css";
+@import "./components/home.css";
+@import "./components/about.css";
+@import "./components/formation.css";
+@import "./components/projects.css";
+@import "./components/contact.css";

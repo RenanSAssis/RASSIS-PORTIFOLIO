@@ -1,0 +1,19 @@
+header {
+  /*ALINHAMENTO DO INICIO E APRESENTAÇÃO DA PÁGINA POSICIONAMENTO DOS ELEMENTOS */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+  scroll-margin-top: 20rem;
+}
+
+header .home {
+  max-width: 620rem;
+  flex: 1;
+}
+
+header .home p {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  max-width: 50rem;
+}
